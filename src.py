@@ -17,8 +17,6 @@ from dash import html
 from dash.dependencies import Input, Output, State
 
 
-
-
 def encode(name):
   char_indices={'a': 1,
  'b': 12,
@@ -166,7 +164,7 @@ def predict(n_clicks, value):
                     'fontFamily': 'Arial',
                     'textAlign': 'center',
                     'padding': '10px',
-                    'backgroundColor': 'rgb(255, 255, 255)',
+                    'backgroundColor': 'rgb(255, 255, 254)',
                     'height': 'auto',
                     'font-size': '18px',
                     'font-weight':"bold"
